@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-anim-loader'
+import { BubbleCircle } from 'react-anim-loader'
 import 'react-anim-loader/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div>
+    <BubbleCircle text="ok test"/>
+  </div>
 }
 
 export default App
